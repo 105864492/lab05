@@ -1,0 +1,21 @@
+/*
+filename: Victoria
+author: Victoria
+created: 31/03/25
+last modified: 31/03/25
+description: css file to alter lab05.html
+*/
+
+/* Updating the aside hover reaction */
+aside:hover{
+    display:block;
+}
+
+menu{
+    display: inline-block;
+}
+
+/*Removing dot points in nav menu*/
+nav ul{
+    list-style:none;   
+}
