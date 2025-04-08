@@ -18,47 +18,87 @@ description: css file to alter lab05.html
         margin: 1em;
         padding: 1em;
         width: 30%;
-        background:url(images/fade.jpg) repeat-x top left;
+        background:url(images/fade.jpg) repeat-x top left;  
         float: right;
         box-shadow: 10px 10px 5px #aaaaaa;
     }
 
-.menu li{
-    display: inline-block;
-}
+    .menu li{
+        display: inline-block;
+    }
 
-/*Removing dot points in nav menu*/
-nav ul{
-    list-style: none;   
-}
+    /*Removing dot points in nav menu*/
+    nav ul{
+        list-style: none;   
+    }
 
-/* Header adjustment */
-header {
-    border: 1px darkgray;
-    margin: 0.5em;
-    padding: 0.5em;
-    background-color: lightgray;
-    text-align: center;
-}
+/* Header + Footer adjustment */
+    header {
+        border: 1px darkgray;
+        margin: 0.5em;
+        padding: 0.5em;
+        background-color: lightgray;
+        text-align: center;
+    }
 
-footer {
-    border-top: 4px double pink;
-}
+    footer {
+        border-top: 4px double pink;
+        clear: both;
+    }
 
-/**/
-#lists {
-    float: left; /*Creates what is basically a colourm feature with the lists
-    and the following block*/
-}
+/*ID alterations*/    
+    #lists {
+        float: left; /*Creates what is basically a colourm feature with the lists
+        and the following block*/
+    }
 
-/**/
-#tables {
-    margin: auto;
-    float: right;
-}
+    /*Table alterations*/
+    #tables {
+        margin: auto;
+        float: right;
+    }
 
-/**/
-#hyperlinks {
-    clear: both;
-    float: left;
-}
+    table {
+        margin: auto;
+    }
+
+    /**/
+    #hyperlinks {
+        clear: both;
+        float: left;
+    }
+
+    #images {
+        float: right;
+    }
+
+    #lists, #images, #tables, #hyperlinks{
+        width: 50%;
+        text-align: center;
+    }
+
+    ol, ul, dl {
+        text-align: left;
+    }
+
+    article {
+        min-width: 30em;
+    }
+
+    footer p {
+        display: inline-block;
+        width: 33%;
+    }
+
+    footer p:first-child{
+        float: left;
+    }
+
+    footer p:nth-child(2) {
+        text-align: center;
+    }
+
+    footer p:last-child {
+        float: right;
+        text-align: right;
+    }
