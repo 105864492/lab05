@@ -2,20 +2,63 @@
 filename: Victoria
 author: Victoria
 created: 31/03/25
-last modified: 31/03/25
+last modified: 09/04/25
 description: css file to alter lab05.html
 */
 
-/* Updating the aside hover reaction */
-aside:hover{
-    display:block;
-}
 
-menu{
+/*ASIDE EDITING*/
+    /* Updating the aside hover reaction */
+    aside:hover{
+        display:block;
+    }
+    aside {
+        border: 4px inset purple;
+        border-radius: 14px;
+        margin: 1em;
+        padding: 1em;
+        width: 30%;
+        background:url(images/fade.jpg) repeat-x top left;
+        float: right;
+        box-shadow: 10px 10px 5px #aaaaaa;
+    }
+
+.menu li{
     display: inline-block;
 }
 
 /*Removing dot points in nav menu*/
 nav ul{
-    list-style:none;   
+    list-style: none;   
+}
+
+/* Header adjustment */
+header {
+    border: 1px darkgray;
+    margin: 0.5em;
+    padding: 0.5em;
+    background-color: lightgray;
+    text-align: center;
+}
+
+footer {
+    border-top: 4px double pink;
+}
+
+/**/
+#lists {
+    float: left; /*Creates what is basically a colourm feature with the lists
+    and the following block*/
+}
+
+/**/
+#tables {
+    margin: auto;
+    float: right;
+}
+
+/**/
+#hyperlinks {
+    clear: both;
+    float: left;
 }
